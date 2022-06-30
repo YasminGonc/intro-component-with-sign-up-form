@@ -5,6 +5,11 @@ function validation(){
     var domain = document.querySelector("#email").value.substring(document.querySelector("#email").value.indexOf("@") + 1);
     var password = document.querySelector("#pass").value;
 
+    document.querySelector("#val-name").innerHTML = " ";
+    document.querySelector("#val-last-name").innerHTML = " ";
+    document.querySelector("#val-email").innerHTML = " ";
+    document.querySelector("#val-pass").innerHTML = " ";
+
     if(nome.length == 0) {
         document.querySelector("#val-name").innerHTML = "Nome não pode estar vazio";
     }
