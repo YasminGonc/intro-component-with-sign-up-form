@@ -68,7 +68,7 @@ input{
 input::placeholder{
     color: var(--grayishblue);
     padding-left: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 input:focus{ /*Configurar input quando estiver selecionado*/
     color: var(--darkblue);
