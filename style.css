@@ -45,7 +45,10 @@ main{
     font-size: 0.9rem;
 }
 #txtbox{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.527);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.527);
+}
+#txtspan, #txtstr{
+    font-size: 0.9rem;
 }
 .login-container{ 
     width: 90%;
@@ -64,13 +67,14 @@ input{
     border-width: 0.1rem;
     border-radius: 0.2rem;
     padding-left: 0.5rem;
+    font-size: 0.8rem;
 }
 input::placeholder{
     color: var(--grayishblue);
     padding-left: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
-input:focus{ /*Configurar input quando estiver selecionado*/
+input:focus{ 
     color: var(--darkblue);
     padding-left: 0.5rem;
     font-size: 0.9rem;
@@ -134,7 +138,17 @@ h1{
     color: var(--darkblue);
 }
 
-@media (max-width: 414px){
+@media (max-width: 1024px){
+    .txtsup{
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 520px){
     .container{
         width: 100%;
         flex-direction: column;
@@ -153,9 +167,20 @@ h1{
     }
     .txtsup{
         font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #txtspan, #txtstr{
+        font-size: 0.7rem;
+        margin-top: 0;
     }
     input{
         font-size: 0.8rem;
+    }
+    input::placeholder{
+        font-size: 0.6rem;
     }
     
 }
