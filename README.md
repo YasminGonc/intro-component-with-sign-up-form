@@ -17,6 +17,8 @@ https://yasmingonc.github.io/intro-component-with-sign-up-form/
 <h2>Layout da aplicação</h2>
 ![image](https://user-images.githubusercontent.com/107756337/176568479-c73f0e65-1442-417b-aa07-55d76ff71c71.png)
 <br>
-![image](https://user-images.githubusercontent.com/107756337/176568518-d2dc4a3b-921e-4f5c-b89d-81627afb9890.png)
+![1](https://user-images.githubusercontent.com/107756337/176568774-4537e1f2-1c56-4f11-b1c4-1c8028a05eea.JPG)
+
+
 
 
