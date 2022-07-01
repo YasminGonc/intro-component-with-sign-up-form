@@ -125,6 +125,12 @@ button{
     flex-direction: column;
     justify-content: center;
 }
+.name-input.on, .sobrenome-input.on, .email-input.on, .pass-input.on{
+    border-color: var(--red);
+}
+.name-input.on::placeholder, .sobrenome-input.on::placeholder, .email-input.on::placeholder, .pass-input.on::placeholder{
+    color: transparent;
+}
 h1{
     font-size: 1.8rem;
     padding-bottom: 1rem;
@@ -146,6 +152,7 @@ h1{
         align-items: center;
         flex-wrap: wrap;
     }
+   
 }
 
 @media (max-width: 520px){
